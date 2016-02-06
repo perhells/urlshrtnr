@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block block_title %}urlshrtnr{% endblock %}
+{% block content %}
+    <div class="jumbotron">
+        <div class="container">
+            <p align="center">Your shrntd URL has been created.</p>
+            <p align="center">It is available <a href='/go/{{shortened}}/'>here</a></p>
+        </div>
+    </div>
+{% endblock %}
